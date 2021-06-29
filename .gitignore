@@ -1,0 +1,58 @@
+### Project
+target/
+*.log
+/log/**
+
+### Testing
+*.received.txt
+
+### Java
+*.class
+*.ear
+*.jar
+*.war
+
+### JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+hs_err_pid*
+.metadata/**
+build.xml
+.pmd
+*.launch
+.ruleset
+.checkstyle
+
+### Phabricator
+.arcconfig
+submitforcodereview*.ps1
+submitforcodereview*.bat
+
+### General
+*.DS_Store
+
+### C-Sharp Test Related
+/src/test/csharp/**/*.suo
+/src/test/csharp/**/*.project
+/src/test/csharp/**/*.dll
+/src/test/csharp/**/[Bb]in
+/src/test/csharp/**/[Oo]bj
+/src/test/csharp/**/x64
+/src/test/csharp/**/x86
+/src/test/csharp/**/TestResults
+/src/test/csharp/**/TestResult.xml
+/src/test/csharp/.vs
+/src/test/csharp/packages
+
+### Dev directory
+!/dev/**
